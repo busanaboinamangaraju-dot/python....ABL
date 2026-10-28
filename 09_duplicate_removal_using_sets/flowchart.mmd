@@ -1,0 +1,13 @@
+flowchart TD
+    A([Start]) --> B[/Enter numbers separated by spaces/]
+    B --> C[Split input into values]
+    C --> D[Create empty list for unique values]
+    D --> E[Check each value]
+    E --> F{Already seen?}
+    F -- No --> G[Add value to unique list and set]
+    F -- Yes --> H[Skip duplicate]
+    G --> I{More values?}
+    H --> I
+    I -- Yes --> E
+    I -- No --> J[/Display unique values/]
+    J --> K([Stop])
