@@ -1,0 +1,9 @@
+flowchart TD
+    A([Start]) --> B[Set total to zero]
+    B --> C[/Enter number of items/]
+    C --> D[Repeat for each item: enter name, price, quantity]
+    D --> E[Add price times quantity to total]
+    E --> F{More items?}
+    F -- Yes --> D
+    F -- No --> G[/Display item details and total bill/]
+    G --> H([Stop])
