@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="342" viewBox="0 0 1000 342">
+ <rect width="1000" height="342" fill="#101820" rx="18"/>
+ <rect width="1000" height="56" fill="#263746" rx="18"/>
+ <rect y="38" width="1000" height="18" fill="#263746"/>
+ <circle cx="26" cy="28" r="7" fill="#ff605c"/><circle cx="50" cy="28" r="7" fill="#ffbd44"/><circle cx="74" cy="28" r="7" fill="#00ca4e"/>
+ <text x="105" y="35" fill="#ffffff" font-family="Arial,sans-serif" font-size="18" font-weight="bold">Student Marks Analysis — Python Output</text>
+ <text x="28" y="86" fill="#72e0a4" font-family="monospace" font-size="15">>>> Run completed successfully</text>
+ <text x="30" y="120" fill="#8fc7ff" font-family="monospace" font-size="17">How many subjects? 4</text>
+<text x="30" y="144" fill="#8fc7ff" font-family="monospace" font-size="17">Enter mark 1 (0-100): 80</text>
+<text x="30" y="168" fill="#8fc7ff" font-family="monospace" font-size="17">Enter mark 2 (0-100): 95</text>
+<text x="30" y="192" fill="#8fc7ff" font-family="monospace" font-size="17">Enter mark 3 (0-100): 70</text>
+<text x="30" y="216" fill="#8fc7ff" font-family="monospace" font-size="17">Enter mark 4 (0-100): 85</text>
+<text x="30" y="240" fill="#f1f5f9" font-family="monospace" font-size="17">Highest mark: 95</text>
+<text x="30" y="264" fill="#f1f5f9" font-family="monospace" font-size="17">Lowest mark: 70</text>
+<text x="30" y="288" fill="#f1f5f9" font-family="monospace" font-size="17">Average mark: 82.50</text>
+ </svg>
