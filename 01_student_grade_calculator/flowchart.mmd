@@ -1,0 +1,9 @@
+flowchart TD
+    A([Start]) --> B[/Enter marks for five subjects/]
+    B --> C{All marks between 0 and 100?}
+    C -- No --> D[Display invalid marks]
+    C -- Yes --> E[Calculate total and percentage]
+    E --> F[Assign grade using if-elif-else]
+    F --> G[/Display total, percentage, and grade/]
+    D --> H([Stop])
+    G --> H
