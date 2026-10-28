@@ -1,4 +1,8 @@
+# Electricity Bill Calculator
+# Topics: input/output, type conversion, arithmetic, comparisons, if-elif-else.
+
 units = float(input("Enter electricity units consumed: "))
+
 if units < 0:
     print("Units cannot be negative.")
 elif units <= 100:
