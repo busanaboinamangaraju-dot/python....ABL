@@ -1,0 +1,11 @@
+flowchart TD
+    A([Start]) --> B[/Enter number of students/]
+    B --> C[Create empty records list]
+    C --> D[/Enter roll number, name, and marks/]
+    D --> E[Store details as a tuple]
+    E --> F[Add tuple to records list]
+    F --> G{More students?}
+    G -- Yes --> D
+    G -- No --> H[Traverse records list]
+    H --> I[/Display each student record/]
+    I --> J([Stop])
