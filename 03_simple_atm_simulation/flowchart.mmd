@@ -1,0 +1,21 @@
+flowchart TD
+    A([Start]) --> B[Set initial balance]
+    B --> C[/Display ATM menu and read choice/]
+    C --> D{Choice?}
+    D -- Check balance --> E[Display balance]
+    D -- Deposit --> F[/Enter deposit amount/]
+    F --> G{Amount positive?}
+    G -- Yes --> H[Add amount to balance]
+    G -- No --> I[Display invalid amount]
+    D -- Withdraw --> J[/Enter withdrawal amount/]
+    J --> K{Amount valid and within balance?}
+    K -- Yes --> L[Subtract amount from balance]
+    K -- No --> M[Display error]
+    D -- Exit --> N([Stop])
+    D -- Other --> O[Display invalid choice]
+    E --> C
+    H --> C
+    I --> C
+    L --> C
+    M --> C
+    O --> C
