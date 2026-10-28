@@ -1,0 +1,11 @@
+flowchart TD
+    A([Start]) --> B[Set secret number]
+    B --> C[/Enter a guess/]
+    C --> D{Guess equals secret?}
+    D -- Yes --> E[Display correct guess]
+    D -- No --> F{Guess too low?}
+    F -- Yes --> G[Display too low]
+    F -- No --> H[Display too high]
+    G --> C
+    H --> C
+    E --> I([Stop])
