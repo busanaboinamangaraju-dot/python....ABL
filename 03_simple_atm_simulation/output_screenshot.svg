@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="486" viewBox="0 0 1000 486">
+ <rect width="1000" height="486" fill="#101820" rx="18"/>
+ <rect width="1000" height="56" fill="#263746" rx="18"/>
+ <rect y="38" width="1000" height="18" fill="#263746"/>
+ <circle cx="26" cy="28" r="7" fill="#ff605c"/><circle cx="50" cy="28" r="7" fill="#ffbd44"/><circle cx="74" cy="28" r="7" fill="#00ca4e"/>
+ <text x="105" y="35" fill="#ffffff" font-family="Arial,sans-serif" font-size="18" font-weight="bold">Simple ATM Menu Simulation — Python Output</text>
+ <text x="28" y="86" fill="#72e0a4" font-family="monospace" font-size="15">>>> Run completed successfully</text>
+ <text x="30" y="120" fill="#f1f5f9" font-family="monospace" font-size="17">--- ATM MENU ---</text>
+<text x="30" y="144" fill="#f1f5f9" font-family="monospace" font-size="17">1. Check balance</text>
+<text x="30" y="168" fill="#f1f5f9" font-family="monospace" font-size="17">2. Deposit</text>
+<text x="30" y="192" fill="#f1f5f9" font-family="monospace" font-size="17">3. Withdraw</text>
+<text x="30" y="216" fill="#f1f5f9" font-family="monospace" font-size="17">4. Exit</text>
+<text x="30" y="240" fill="#8fc7ff" font-family="monospace" font-size="17">Choose an option (1-4): 1</text>
+<text x="30" y="264" fill="#f1f5f9" font-family="monospace" font-size="17">Available balance: Rs. 1000.00</text>
+<text x="30" y="288" fill="#f1f5f9" font-family="monospace" font-size="17">--- ATM MENU ---</text>
+<text x="30" y="312" fill="#f1f5f9" font-family="monospace" font-size="17">1. Check balance</text>
+<text x="30" y="336" fill="#f1f5f9" font-family="monospace" font-size="17">2. Deposit</text>
+<text x="30" y="360" fill="#f1f5f9" font-family="monospace" font-size="17">3. Withdraw</text>
+<text x="30" y="384" fill="#f1f5f9" font-family="monospace" font-size="17">4. Exit</text>
+<text x="30" y="408" fill="#8fc7ff" font-family="monospace" font-size="17">Choose an option (1-4): 4</text>
+<text x="30" y="432" fill="#f1f5f9" font-family="monospace" font-size="17">Thank you for using the ATM simulation.</text>
+ </svg>
