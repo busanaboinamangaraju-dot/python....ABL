@@ -1,0 +1,8 @@
+flowchart TD
+    A([Start]) --> B[/Enter units consumed/]
+    B --> C{Units valid and non-negative?}
+    C -- No --> D[Display invalid input]
+    C -- Yes --> E[Calculate bill using unit slabs]
+    E --> F[/Display electricity bill/]
+    D --> G([Stop])
+    F --> G
