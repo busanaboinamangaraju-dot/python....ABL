@@ -1,14 +1,25 @@
+# Shopping Cart and Bill Calculator
+# Topics: lists, for loop, input/output, type conversion,
+# arithmetic, comparisons, and formatted strings.
+
 items = []
 prices = []
+
 for number in range(1, 4):
-    name = input(f"Enter name of item {number}: ")
-    price = float(input(f"Enter price of {name}: Rs. "))
+    name = input("Enter name of item " + str(number) + ": ")
+    price = float(input("Enter price of " + name + ": Rs. "))
+
     if price < 0:
         print("Price cannot be negative.")
-        raise SystemExit
+        break
+
     items.append(name)
     prices.append(price)
-print("\n--- SHOPPING BILL ---")
-for index in range(len(items)):
-    print(f"{items[index]}: Rs. {prices[index]:.2f}")
-print(f"Total: Rs. {sum(prices):.2f}")
+
+if len(items) == 3:
+    print("\n--- SHOPPING BILL ---")
+    for index in range(len(items)):
+        print(f"{items[index]}: Rs. {prices[index]:.2f}")
+
+    total = sum(prices)
+    print(f"Total: Rs. {total:.2f}")
