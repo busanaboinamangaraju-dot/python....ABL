@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="318" viewBox="0 0 1000 318">
+ <rect width="1000" height="318" fill="#101820" rx="18"/>
+ <rect width="1000" height="56" fill="#263746" rx="18"/>
+ <rect y="38" width="1000" height="18" fill="#263746"/>
+ <circle cx="26" cy="28" r="7" fill="#ff605c"/><circle cx="50" cy="28" r="7" fill="#ffbd44"/><circle cx="74" cy="28" r="7" fill="#00ca4e"/>
+ <text x="105" y="35" fill="#ffffff" font-family="Arial,sans-serif" font-size="18" font-weight="bold">Number Guessing Game — Python Output</text>
+ <text x="28" y="86" fill="#72e0a4" font-family="monospace" font-size="15">>>> Run completed successfully</text>
+ <text x="30" y="120" fill="#f1f5f9" font-family="monospace" font-size="17">Guess the number between 1 and 10.</text>
+<text x="30" y="144" fill="#8fc7ff" font-family="monospace" font-size="17">Your guess: 4</text>
+<text x="30" y="168" fill="#f1f5f9" font-family="monospace" font-size="17">Too low!</text>
+<text x="30" y="192" fill="#8fc7ff" font-family="monospace" font-size="17">Your guess: 9</text>
+<text x="30" y="216" fill="#f1f5f9" font-family="monospace" font-size="17">Too high!</text>
+<text x="30" y="240" fill="#8fc7ff" font-family="monospace" font-size="17">Your guess: 7</text>
+<text x="30" y="264" fill="#f1f5f9" font-family="monospace" font-size="17">Correct! You guessed in 3 attempt(s).</text>
+ </svg>
