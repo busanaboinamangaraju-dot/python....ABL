@@ -1,0 +1,9 @@
+flowchart TD
+    A([Start]) --> B[/Enter password/]
+    B --> C{Length at least 8?}
+    C -- No --> D[Display needs improvement]
+    C -- Yes --> E{Contains uppercase and digit?}
+    E -- Yes --> F[Display meets basic rules]
+    E -- No --> D
+    D --> G([Stop])
+    F --> G
